@@ -196,6 +196,7 @@ hide_edge_borders smart
 for_window [class="^Steam$"] floating enable
 for_window [class="^Steam$" title="^Steam$"] floating disable
 for_window [class="^Pavucontrol$"] floating enable
+for_window [title="^WeeChat"] move to workspace 10
 assign [class="^Steam$"] 3
 assign [class="^discord$"] 2
 
