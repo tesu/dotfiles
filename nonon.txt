@@ -1,0 +1,19 @@
+${c1}XXNXXWNWWWWWWNWWWWWWWWWWWNWk;'.${c3}         
+${c1}XKWMN0NWWWWWWMMMMMMMMMMMMMMMWWWN0koc,.${c3}  
+${c1}WWWWkdkOOkOkkkkxxxxxxxxdooododxddlc:;'${c3}  
+${c1}NNNKxNkxoooooolllcclllllcclll;${c3}          
+${c1}XO${c2}kkkXOxxkkdkxxOKkkdxkoxkkol;${c3}           
+${c2}kkkkkOkddddO${c1}KNK0OxlONKXN0${c2},:.${c3}            
+${c2}kkkkOONoxxO${c1}NNxxk${c2};.:${c1}NNNNNNox${c3}             
+${c2}kkkxKkKkkkk${c1}NNNNNxk0NNNNNXXNc${c3}            
+${c2}dxlldK0kkkk${c1}NNNNNNNNNNNNNNNNO${c3}            
+${c3} ${c2}'clloOdkk00${c1}NNNNNKXXXXXXX${c1}N0${c2}c${c3}            
+${c3}    ${c2}.,ccdkOxK${c1}NNNNNNNNNNNX${c2}dlo${c3}            
+${c3}      ${c2}.'ckxkx0${c1}KKKKXXXXXK${c2}dcco.${c3}           
+${c3}      ${c1}.kNNXOdkOOOd.,lo:${c3}  ${c2}ccl'${c3}           
+${c3}     ${c1},KNNNNN0k0OkdOKXXkx.${c3}  ${c2}c.${c3}           
+${c3}    ${c1}.0XXXXXXXKO00O0OkOKKo:${c3}              
+${c3}    ${c1}:KKKKKKKKKOKxOlc000Kk,${c3}              
+${c3}    ${c1}.OKKKKKKKK0Ol.,..c.;${c1}kx${c3}              
+${c3}    ${c1}oO00OOkkOO000d:;l..${c1}o:d'${c3}             
+${c3}   ${c1}c0OkxxxxxxxxOOddxkk,${c1}l0Od.${c3}            
