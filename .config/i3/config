@@ -204,9 +204,11 @@ no_focus [window_role="pop-up"]
 mouse_warping none
 workspace_auto_back_and_forth yes
 
-#exec --no-startup-id steam-native
+exec --no-startup-id steam-native
 exec --no-startup-id discord
 exec --no-startup-id ibus-daemon -drx --xim
+exec --no-startup-id transmission-qt
+exec --no-startup-id /home/tesu/flexget/bin/flexget daemon start -d
 exec --no-startup-id urxvtd -f
 #exec --no-startup-id compton -b
 
