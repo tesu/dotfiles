@@ -17,6 +17,6 @@ alias sudo='sudo '
 
 PS1='[\u@\h \W]\$ '
 
-neofetch --ascii /home/tesu/nonon.txt --ascii_colors 4 1
-
+#neofetch --ascii /home/tesu/nonon.txt --ascii_colors 4 1
+neofetch
 
