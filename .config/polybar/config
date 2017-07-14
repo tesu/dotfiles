@@ -119,7 +119,8 @@ type = internal/xbacklight
 
 format = <label>
 label = %percentage%%
-label-underline = #5b4a52
+#label-underline = #5b4a52
+label-underline = ${xrdb:color1}
 
 [module/backlight-acpi]
 inherit = module/xbacklight
@@ -132,7 +133,8 @@ interface = wlp58s0
 interval = 3.0
 
 format-connected = <label-connected>
-format-connected-underline = #9f78e1
+#format-connected-underline = #9f78e1
+format-connected-underline = ${xrdb:color3}
 label-connected = %signal%% @ %essid%
 
 format-disconnected =
@@ -153,7 +155,8 @@ time = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #fe6808
+#format-underline = #fe6808
+format-underline = ${xrdb:color5}
 
 label = %date% %time%
 
@@ -165,7 +168,8 @@ master-mixer = Master
 format-volume = <label-volume>
 label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
-label-volume-underline = #c02948
+#label-volume-underline = #c02948
+label-volume-underline = ${xrdb:color2}
 
 format-muted-prefix = 
 format-muted-foreground = ${colors.foreground-alt}
@@ -179,7 +183,8 @@ full-at = 100
 
 format-charging = <label-charging>
 label-charging = %percentage%%
-format-charging-underline = #fae764
+#format-charging-underline = #fae764
+format-charging-underline = ${xrdb:color4}
 
 format-discharging = <label-discharging>
 label-discharging = %percentage%%
