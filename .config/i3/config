@@ -215,8 +215,8 @@ exec --no-startup-id dunst
 
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-bindsym Print exec scrot %F_%T.png -e 'xclip -sel clip -t image/png < $f && mv $f ~/Pictures/scrot/'
-bindsym Control+Print exec scrot -u %F_%T.png -e 'xclip -sel clip -t image/png < $f && mv $f ~/Pictures/scrot/'
+bindsym Print exec scrot %F_%T.png -e 'xclip -sel clip -t image/png < $f && mv $f ~/Pictures/scrot/ && notify-send scrot "$f saved"'
+bindsym Control+Print exec scrot -u %F_%T.png -e 'xclip -sel clip -t image/png < $f && mv $f ~/Pictures/scrot/ && notify-send scrot "$f saved"'
 
 bindsym $mod+Shift+s exec "i3-nagbar -t warning -m 'You pressed the shutdown shortcut.' -b 'Yes, shutdown' 'systemctl poweroff'"
  
