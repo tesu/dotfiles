@@ -153,7 +153,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # shit that i've added
-exec --no-startup-id feh --bg-scale /home/tesu/Pictures/bg.png
+#exec --no-startup-id feh --bg-scale /home/tesu/Pictures/bg.png
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle # mute sound
