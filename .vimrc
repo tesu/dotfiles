@@ -21,4 +21,5 @@ set foldnestmax=10
 set foldmethod=indent
 set clipboard=unnamedplus
 set mouse=a
+set hidden
 
