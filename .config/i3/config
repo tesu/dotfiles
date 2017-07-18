@@ -202,7 +202,9 @@ for_window [title="^WeeChat"] move to workspace 10
 assign [class="^Steam$"] 3
 assign [class="^discord$"] 2
 
-no_focus [window_role="pop-up"]
+for_window [window_role="pop-up"] floating enable
+
+#no_focus [window_role="pop-up"]
 mouse_warping none
 workspace_auto_back_and_forth yes
 
