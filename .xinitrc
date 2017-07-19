@@ -37,6 +37,7 @@ fi
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
+export DESKTOP_SESSION=gnome
 
 /home/tesu/pywal/bin/wal -i "$(< "${HOME}/.cache/wal/wal")"
 
