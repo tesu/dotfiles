@@ -26,7 +26,7 @@ urxvt.url-select.button: 1
 urxvt.scrollBar: false
 urxvt.scrollTtyKeypress: true
 urxvt.skipScroll: true
-urxvt.inputMethod: ibus
+urxvt.inputMethod: fcitx 
 urxvt.preeditType: OverTheSpot
 urxvt.depth: 0
 

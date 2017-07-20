@@ -212,7 +212,6 @@ exec --no-startup-id steam-native
 exec --no-startup-id discord
 exec --no-startup-id /home/tesu/flexget/bin/flexget daemon start -d
 exec --no-startup-id urxvtd -f
-exec --no-startup-id GTK_IM_MODULE=ibus XMODIFIERS=@im=ibus QT_IM_MODULE=ibus ibus-daemon -drx --xim
 exec --no-startup-id dunst
 #exec --no-startup-id compton -b
 
