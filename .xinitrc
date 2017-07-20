@@ -40,6 +40,8 @@ export XMODIFIERS="@im=fcitx"
 
 /home/tesu/pywal/bin/wal -i "$(< "${HOME}/.cache/wal/wal")"
 
+export DESKTOP_SESSION=gnome
+
 fctix
 #exec i3 -V >> ~/i3log-$(date +'%F-%k-%M-%S') 2>&1
 exec i3
