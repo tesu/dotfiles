@@ -23,5 +23,6 @@ alias gitdf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 (/home/tesu/pywal/bin/wal -r &)
 
-#neofetch --ascii /home/tesu/nonon.txt --ascii_colors 4 1
+DESKTOP_SESSION=
+
 neofetch
