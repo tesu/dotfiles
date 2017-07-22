@@ -2,7 +2,7 @@
 # Use Full Width Character
 # Available Value:
 # True False
-#FullWidth=False
+FullWidth=True
 # Use Wide Punctuation
 # Available Value:
 # True False
