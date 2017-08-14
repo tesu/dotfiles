@@ -194,7 +194,8 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 hide_edge_borders smart
 
-for_window [class=".*"] title_format " %title"
+new_window 1pixel
+#for_window [class=".*"] title_format " %title"
 for_window [class="^Steam$"] floating enable
 for_window [class="^Steam$" title="^Steam$"] floating disable
 for_window [class="^Pavucontrol$"] floating enable
