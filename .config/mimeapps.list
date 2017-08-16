@@ -1,0 +1,17 @@
+[Added Associations]
+video/x-matroska=mpv.desktop;
+image/png=feh.desktop;
+image/jpeg=feh.desktop;
+video/mpeg=mpv.desktop;
+audio/x-mpegurl=mpv.desktop;
+video/webm=mpv.desktop;
+video/x-flv=mpv.desktop;
+text/x-python=wine-extension-txt.desktop;
+text/plain=org.gnome.gedit.desktop;wine-extension-txt.desktop;
+video/mp4=mpv.desktop;
+application/pdf=evince.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+
+[Default Applications]
+image/png=feh.desktop
+image/jpeg=feh.desktop
