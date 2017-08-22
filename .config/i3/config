@@ -214,6 +214,7 @@ exec --no-startup-id discord
 exec --no-startup-id /home/tesu/flexget/bin/flexget daemon start -d
 exec --no-startup-id urxvtd -f
 exec --no-startup-id dunst
+exec --no-startup-id mpd
 #exec --no-startup-id compton -b
 
 exec_always --no-startup-id ~/.config/polybar/launch.sh
@@ -226,9 +227,10 @@ bindsym $mod+Shift+s exec "i3-nagbar -t warning -m 'You pressed the shutdown sho
 mode "shortcuts" {
     bindsym c exec google-chrome-stable; mode "default"
     bindsym p exec pavucontrol; mode "default"
-    bindsym w exec --no-startup-id urxvtc -e weechat; mode "default"
-    bindsym m exec --no-startup-id urxvtc -e mpv https://stream.r-a-d.io/main.mp3 --volume=30; mode "default"
-    bindsym r exec --no-startup-id urxvtc -e ranger; mode "default"
+    bindsym w exec --no-startup-id urxvtc -e zsh -c weechat; mode "default"
+    bindsym m exec --no-startup-id urxvtc -e zsh -c "mpv https://stream.r-a-d.io/main.mp3 --volume=30"; mode "default"
+    bindsym r exec --no-startup-id urxvtc -e zsh -c ranger; mode "default"
+    bindsym n exec --no-startup-id urxvtc -e zsh -c ncmpcpp; mode "default"
     bindsym l exec playonlinux; mode "default"
     bindsym a exec aegisub-3.2; mode "default"
     bindsym t exec playonlinux --run "Taiga"; mode "default"
