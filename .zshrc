@@ -20,6 +20,7 @@ alias streamlink='streamlink --player /usr/bin/mpv'
 alias vim='vim -u /home/tesu/.vimrc'
 alias flexget='~/flexget/bin/flexget'
 alias gitdf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias fn='flexget execute --discover-now'
 
 DESKTOP_SESSION=
 
