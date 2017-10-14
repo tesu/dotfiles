@@ -21,6 +21,7 @@ alias vim='vim -u /home/tesu/.vimrc'
 alias flexget='~/flexget/bin/flexget'
 alias gitdf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias fn='flexget execute --discover-now'
+alias rw='sudo systemctl restart NetworkManager'
 
 DESKTOP_SESSION=
 
