@@ -238,6 +238,7 @@ mode "shortcuts" {
     bindsym s exec steam-native; mode "default"
     bindsym q exec transmission-qt; mode "default"
     bindsym k exec krita; mode "default"
+    bindsym f exec /home/tesu/ffxiv; mode "default"
 
     bindsym Return mode "default"
     bindsym Escape mode "default"
