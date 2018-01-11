@@ -1,6 +1,6 @@
 BattleEffectSelf	0
-BattleEffectParty	0
-BattleEffectOther	0
+BattleEffectParty	1
+BattleEffectOther	1
 
 <GamePad Settings>
 PadMode	1
@@ -45,8 +45,8 @@ Time12	0
 TimeEorzea	1
 TimeLocal	1
 TimeServer	1
-ActiveLS_H	0
-ActiveLS_L	0
+ActiveLS_H	4784128
+ActiveLS_L	96565
 HotbarLock	0
 HotbarDispRecastTime	1
 HotbarCrossContentsActionEnableInput	1
@@ -74,7 +74,7 @@ HotbarCrossOperation	0
 HotbarCrossDisp	0
 HotbarCrossLock	0
 HotbarCrossUsePadGuide	1
-HotbarCrossActiveSet	0
+HotbarCrossActiveSet	1
 HotbarCrossActiveSetPvP	0
 HotbarCrossSetChangeCustomIsAuto	1
 HotbarCrossSetChangeCustom	0
@@ -86,9 +86,9 @@ HotbarCrossSetChangeCustomSet5	0
 HotbarCrossSetChangeCustomSet6	0
 HotbarCrossSetChangeCustomSet7	0
 HotbarCrossSetChangeCustomSet6	1
-HotbarCrossSetChangeCustomIsSword	0
+HotbarCrossSetChangeCustomIsSword	1
 HotbarCrossSetChangeCustomIsSwordSet1	1
-HotbarCrossSetChangeCustomIsSwordSet2	1
+HotbarCrossSetChangeCustomIsSwordSet2	0
 HotbarCrossSetChangeCustomIsSwordSet3	0
 HotbarCrossSetChangeCustomIsSwordSet4	0
 HotbarCrossSetChangeCustomIsSwordSet5	0
