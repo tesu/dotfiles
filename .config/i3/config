@@ -199,8 +199,8 @@ new_window 1pixel
 for_window [class="^Steam$"] floating enable
 for_window [class="^Steam$" title="^Steam$"] floating disable
 for_window [class="^Pavucontrol$"] floating enable
+for_window [instance="^ffxiv.exe$"] floating enable
 for_window [class="^URxvt$" title="^WeeChat"] move to workspace 10
-for_window [class="^ffxiv.exe$"] floating enable
 assign [class="^Steam$"] 3
 assign [class="^discord$"] 2
 
