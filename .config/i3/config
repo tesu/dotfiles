@@ -127,7 +127,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
-mode "resize" {
+mode "R" {
         # These bindings trigger as soon as you enter the resize mode
 
         # Pressing left will shrink the window’s width.
@@ -150,7 +150,7 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-bindsym $mod+r mode "resize"
+bindsym $mod+r mode "R"
 
 # shit that i've added
 #exec --no-startup-id feh --bg-scale /home/tesu/Pictures/bg.png
@@ -225,7 +225,7 @@ bindsym Control+Print exec scrot -u %F_%T.png -e 'xclip -sel clip -t image/png <
 
 bindsym $mod+Shift+s exec "i3-nagbar -t warning -m 'You pressed the shutdown shortcut.' -b 'Yes, shutdown' 'systemctl poweroff'"
  
-mode "shortcuts" {
+mode "C" {
     bindsym c exec google-chrome-stable; mode "default"
     bindsym p exec pavucontrol; mode "default"
     bindsym w exec --no-startup-id urxvtc -e zsh -c weechat; mode "default"
@@ -244,6 +244,6 @@ mode "shortcuts" {
     bindsym Escape mode "default"
 }
 
-bindsym $mod+c mode "shortcuts"
+bindsym $mod+c mode "C"
 bindsym $mod+x exec i3lock -i ~/Pictures/lock.png
 
