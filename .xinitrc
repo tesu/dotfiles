@@ -38,10 +38,10 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
 
-/home/tesu/pywal/bin/wal -i "$(< "${HOME}/.cache/wal/wal")"
-
 export DESKTOP_SESSION=gnome
 
 fctix
+feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"
+wal -R
 #exec i3 -V >> ~/i3log-$(date +'%F-%k-%M-%S') 2>&1
 exec i3

@@ -1,1 +1,2 @@
-(/home/tesu/pywal/bin/wal -r &)
+(cat ~/.cache/wal/sequences &)
+
