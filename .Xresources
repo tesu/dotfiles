@@ -31,4 +31,6 @@ urxvt.depth: 0
 urxvt.scrollTtyOutput: false
 urxvt.scrollWithBuffer: true
 urxvt.scrollTtyKeypress: true
+xdvi*background: white
+xdvi*foreground: black
 
