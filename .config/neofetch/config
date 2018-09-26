@@ -487,7 +487,7 @@ image_backend="ascii"
 #
 # NOTE: Change this to 'wallpaper', '/path/to/img' or /path/to/dir/' to enable image mode. You can also launch neofetch with '--image wallpaper' and etc.
 #image_source="ascii"
-image_source="/home/tesu/.config/neofetch/nonon.txt"
+#image_source="/home/tesu/.config/neofetch/nonon.txt"
 
 # Thumbnail directory
 #
