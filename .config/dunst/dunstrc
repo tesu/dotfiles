@@ -11,7 +11,7 @@
     # <http://developer.gnome.org/pango/stable/PangoMarkupFormat.html>.
     # If markup is not allowed, those tags will be stripped out of the
     # message.
-    allow_markup = yes
+    markup = full
     
     # The format of the message.  Possible variables are:
     #   %a  appname
@@ -21,7 +21,7 @@
     #   %I  iconname (without its path)
     #   %p  progress value if set ([  0%] to [100%]) or nothing
     # Markup is allowed
-    format = "<b>%s</b>\n%b"
+    format = "<i>%a:</i> <b>%s</b>\n%b"
     
     # Sort messages by urgency.
     sort = yes
@@ -64,7 +64,7 @@
     # the top and down respectevly.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x5-30+20"
+    geometry = "300x5-30-50"
     
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
@@ -136,16 +136,20 @@
     startup_notification = false
     
     # dmenu path.
-    dmenu = /usr/bin/dmenu -p dunst:
+    # dmenu = /usr/bin/dmenu -p dunst:
+    dmenu = /usr/bin/rofi -width 50 -dmenu -p dunst
     
     # Browser for opening urls in context menu.
     browser = /usr/bin/google-chrome-stable -new-tab
 
     # Align icons left/right/off
-    icon_position = off
+    icon_position = left
+
+    # Scale larger icons down to this size, set to 0 to disable
+    max_icon_size = 32
 
     # Paths to default icons.
-    icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_path = /usr/share/icons/Arc/status/16/:/usr/share/icons/Arc/devices/16/
 
     frame_width = 0
     frame_color = "#aaaaaa"
@@ -174,18 +178,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#222222"
-    foreground = "#888888"
+    background = "#ffffff"
+    foreground = "#000000"
     timeout = 10
 
 [urgency_normal]
-    background = "#285577"
-    foreground = "#ffffff"
+    background = "#ffffff"
+    foreground = "#000000"
     timeout = 10
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
+    background = "#ffffff"
+    foreground = "#000000"
     timeout = 0
 
 
