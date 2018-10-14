@@ -33,4 +33,6 @@ urxvt.scrollWithBuffer: true
 urxvt.scrollTtyKeypress: true
 xdvi*background: white
 xdvi*foreground: black
+rofi.terminal: urxvtc
+rofi.columns: 2
 

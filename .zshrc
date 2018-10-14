@@ -12,8 +12,12 @@ zstyle :compinstall filename '/home/tesu/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+autoload -U promptinit
+promptinit
+prompt bart
 
-PS1='[%n@%M %~]$ '
+#PS1='[%n@%M %~]$ '
+PS1='$ '
 alias ls='ls --color=auto -a'
 alias radio='mpv https://stream.r-a-d.io/main.mp3 --volume=30'
 alias streamlink='streamlink --player /usr/bin/mpv'
