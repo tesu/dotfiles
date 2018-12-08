@@ -34,5 +34,10 @@ urxvt.scrollTtyKeypress: true
 xdvi*background: white
 xdvi*foreground: black
 rofi.terminal: urxvtc
+rofi.width: 50
 rofi.columns: 2
+rofi.combi-modi: window,drun,ssh
+rofi.modi: combi
+rofi.ssh-client: mosh
+rofi.ssh-command: {terminal} -e zsh -c '{ssh-client} {host}'
 
