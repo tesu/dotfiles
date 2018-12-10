@@ -18,6 +18,7 @@ prompt bart
 
 #PS1='[%n@%M %~]$ '
 PS1='$ '
+EDITOR=vim
 alias ls='ls --color=auto -a'
 alias radio='mpv https://stream.r-a-d.io/main.mp3 --volume=30'
 alias streamlink='streamlink --player /usr/bin/mpv'
@@ -30,5 +31,12 @@ alias rw='sudo systemctl restart NetworkManager'
 alias shrink='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf '
 
 DESKTOP_SESSION=
+
+# fixing hotkeys
+bindkey "\e[1~" beginning-of-line
+bindkey "\e[4~" end-of-line
+bindkey "\e[3~" delete-char
+bindkey "\e[7~" beginning-of-line
+bindkey "\e[8~" end-of-line
 
 neofetch
