@@ -4,4 +4,4 @@ This is actually just a mirror of my home directory, so you can honestly just cl
 I use `gitdf` in place of `git` when committing changes so that the git directory is out of the way.
 
 ## Screenshot
-![Screenshot](https://user-images.githubusercontent.com/840752/46105399-dd370280-c1a3-11e8-90a9-ad850302c0dc.png)
+![Screenshot](https://user-images.githubusercontent.com/840752/52455592-c1af1180-2b1e-11e9-968c-7fd1f37e89f9.png)
