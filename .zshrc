@@ -27,7 +27,7 @@ alias vpn='sudo openconnect https://vpn.mit.edu/duo'
 alias flexget='~/flexget/bin/flexget'
 alias gitdf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias fn='flexget execute --discover-now'
-alias rw='sudo systemctl restart NetworkManager'
+alias wifi='sudo systemctl restart NetworkManager'
 alias shrink='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf '
 
 DESKTOP_SESSION=

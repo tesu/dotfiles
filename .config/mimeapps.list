@@ -15,3 +15,7 @@ application/zip=org.gnome.FileRoller.desktop;
 [Default Applications]
 image/png=feh.desktop
 image/jpeg=feh.desktop
+x-scheme-handler/discord-402572971681644545=discord-402572971681644545.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/mailto=google-chrome.desktop
+x-scheme-handler/webcal=google-chrome.desktop
