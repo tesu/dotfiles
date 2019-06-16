@@ -27,7 +27,6 @@ urxvt.scrollBar: false
 urxvt.skipScroll: true
 urxvt.inputMethod: fcitx 
 urxvt.preeditType: OverTheSpot
-urxvt.depth: 0
 urxvt.scrollTtyOutput: false
 urxvt.scrollWithBuffer: true
 urxvt.scrollTtyKeypress: true
