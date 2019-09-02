@@ -211,7 +211,7 @@ for_window [window_role="pop-up"] floating enable
 mouse_warping none
 workspace_auto_back_and_forth yes
 
-exec --no-startup-id steam-native
+exec --no-startup-id steam
 exec --no-startup-id discord
 exec --no-startup-id /home/tesu/flexget/bin/flexget daemon start -d
 exec --no-startup-id urxvtd -f
@@ -234,12 +234,13 @@ mode "C" {
     bindsym r exec --no-startup-id urxvtc -e zsh -c ranger; mode "default"
     bindsym m exec --no-startup-id urxvtc -e zsh -c ncmpcpp; mode "default"
     bindsym h exec --no-startup-id urxvtc -e zsh -c htop; mode "default"
-    bindsym s exec steam-native; mode "default"
+    bindsym s exec steam; mode "default"
     bindsym d exec discord; mode "default"
     bindsym q exec transmission-qt; mode "default"
     bindsym k exec krita; mode "default"
     bindsym x exec xkill; mode "default"
-    bindsym f exec /home/tesu/ffxiv; mode "default"
+    bindsym f exec xdg-open "steam://run/312060"; mode "default"
+    bindsym a exec ~/mtga; mode "default"
 
     bindsym Return mode "default"
     bindsym Escape mode "default"
