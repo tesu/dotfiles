@@ -52,7 +52,6 @@ modules-right = xbacklight volume wlan battery date
 tray-position = right
 tray-padding = 0
 tray-detached = false
-tray-transparent = false
 tray-background = ${root.background}
 tray-scale = 1.0
 
@@ -171,7 +170,7 @@ format-underline = ${xrdb:color5}
 label = %date% %time%
 
 [module/volume]
-type = internal/volume
+type = internal/alsa
 
 master-mixer = Master
 
