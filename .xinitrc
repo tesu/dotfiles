@@ -41,4 +41,4 @@ export DESKTOP_SESSION=gnome
 fctix
 feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"
 wal -R
-exec i3
+exec i3 >~/.i3logs/$(date +'%F-%k-%M-%S') 2>&1
