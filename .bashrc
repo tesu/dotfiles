@@ -14,6 +14,7 @@ alias radio='mpv https://stream.r-a-d.io/main.mp3 --volume=30'
 alias streamlink='streamlink --player /usr/bin/mpv'
 alias vim='vim -u /home/tesu/.vimrc'
 alias sudo='sudo '
+alias wifimenu='nmtui'
 
 PS1='[\u@\h \W]\$ '
 

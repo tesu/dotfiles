@@ -16,7 +16,7 @@ urxvt.color13: rgb:ad/7f/a8
 urxvt.color14: rgb:00/f5/e9
 urxvt.color15: rgb:ee/ee/ec
 urxvt.font: xft:DejaVu Sans Mono:book:size=10,xft:WenQuanYi Micro Hei Mono:size=10,xft:Material Icons:size=10
-urxvt.letterSpace: -2
+urxvt.letterSpace: -1.9
 urxvt.perl-ext-common: default,url-select
 urxvt.url-select.launcher: google-chrome-stable
 urxvt.url-select.underline: true

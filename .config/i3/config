@@ -217,7 +217,7 @@ exec --no-startup-id discord
 exec --no-startup-id urxvtd -f
 exec --no-startup-id dunst
 exec --no-startup-id mpd
-exec --no-startup-id picom -b --xrender-sync-fence
+exec --no-startup-id picom -b --xrender-sync-fence --experimental-backends
 
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
